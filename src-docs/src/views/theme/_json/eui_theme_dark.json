@@ -305,14 +305,6 @@
   "euiSideNavBranchTextcolor": "#878b95",
   "euiSideNavSelectedTextcolor": "#36a2ef",
   "euiSideNavDisabledTextcolor": "#515761",
-  "spacerSizes": {
-    "xs": "4px",
-    "s": "8px",
-    "m": "16px",
-    "l": "24px",
-    "xl": "32px",
-    "xxl": "40px"
-  },
   "euiStepNumberSize": "32px",
   "euiStepNumberSmallSize": "24px",
   "euiStepNumberMargin": "16px",

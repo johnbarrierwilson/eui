@@ -1,0 +1,59 @@
+{
+	"build": {
+		"cdnFolder": "1650650395178",
+		"cdnFolderURL": "https://cdn.interplay.io/t3nHyqXaKk/t3nHNeCaKk/master/1650650395178/",
+		"basePath": "/Users/johnbarrierwilson/Code/forks/eui",
+		"publicPath": "https://cdn.interplay.io/t3nHyqXaKk/t3nHNeCaKk/master/1650650395178/.interplay/stage/files/interplay/build/",
+		"outputFolder": "/Users/johnbarrierwilson/Code/forks/eui/.interplay/stage/files/interplay/build/",
+		"entry": {
+			"@elastic/eui": "/Users/johnbarrierwilson/Code/forks/eui/dist/eui.js",
+			"@emotion/react": "/Users/johnbarrierwilson/Code/forks/eui/node_modules/@emotion/react/dist/emotion-react.cjs.js"
+		},
+		"alias": {
+			"~": "/Users/johnbarrierwilson/Code/forks/eui",
+			"@elastic/eui": "/Users/johnbarrierwilson/Code/forks/eui",
+			"@elastic/eslint-plugin-eui": "/Users/johnbarrierwilson/Code/forks/eui/packages/eslint-plugin"
+		},
+		"format": "umd",
+		"externals": {
+			"react": {
+				"root": "React",
+				"commonjs2": "react",
+				"commonjs": "react",
+				"amd": "react",
+				"umd": "react"
+			},
+			"react-dom": {
+				"root": "ReactDOM",
+				"commonjs2": "react-dom",
+				"commonjs": "react-dom",
+				"amd": "react-dom",
+				"umd": "react-dom"
+			},
+			"@emotion/react": "@emotion/react"
+		},
+		"extensions": [
+			".ts",
+			".tsx",
+			".js",
+			".jsx",
+			".json",
+			".mjs",
+			".vue",
+			".scss",
+			".sass",
+			".css",
+			".svg",
+			".json",
+			".d.ts"
+		],
+		"buildAssets": {
+			"@elastic/eui": [
+				".interplay/stage/files/interplay/build/@elastic/eui.js"
+			],
+			"@emotion/react": [
+				".interplay/stage/files/interplay/build/@emotion/react.js"
+			]
+		}
+	}
+}
